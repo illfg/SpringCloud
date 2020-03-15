@@ -2,7 +2,6 @@ package main.handler;
 
 
 import entity.CommonResult;
-
 import entity.Payment;
 import main.service.PaymentService;
 import org.slf4j.Logger;
@@ -19,10 +18,10 @@ public class PaymentController {
     @Autowired
     PaymentService userService;
 
-    private final Logger log =  LoggerFactory.getLogger(PaymentController.class);
-
     @Value("${server.port}")
     private String port;
+
+    private final Logger log =  LoggerFactory.getLogger(PaymentController.class);
 
     @PostMapping("payment/create")
     @ResponseBody

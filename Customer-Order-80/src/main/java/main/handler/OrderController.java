@@ -18,7 +18,7 @@ public class OrderController {
     private RestTemplate restTemplate;
 
 
-   public final static String Payment_Url = "http://localhost:8001";
+   public final static String Payment_Url = "http://PAYMENT";
     private final Logger log =  LoggerFactory.getLogger(OrderController.class);
 
    @RequestMapping("customer/create")
@@ -28,16 +28,17 @@ public class OrderController {
 //       LinkedMultiValueMap<String, Object> map = new LinkedMultiValueMap<>();
 //       map.add("username",user.getUsername());
 //       map.add("password",user.getPassword());
-       return restTemplate.postForObject(Payment_Url + "payment/create",payment,CommonResult.class);
+       return restTemplate.postForObject(Payment_Url + "/payment/create",payment,CommonResult.class);
     }
 
     @RequestMapping("customer/get")
     @ResponseBody
-    public CommonResult<Payment> create(Long id){
+    public CommonResult<Payment> get(Long id){
+        System.out.println("sadfasdfsadfsadfdfsadf");
 //        log.warn("User  query ..."+id);
 //        LinkedMultiValueMap<String, Object> map = new LinkedMultiValueMap<>();
 //        map.add("id",id);
-        return restTemplate.postForObject(Payment_Url + "payment/query",id,CommonResult.class);
+        return restTemplate.postForObject(Payment_Url + "/payment/query",id,CommonResult.class);
     }
 
 

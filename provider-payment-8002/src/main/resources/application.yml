@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
   address: 127.0.0.1
 
 spring:
@@ -25,4 +25,3 @@ Eureka:
     service-url:
       #注册中心的地址
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
-

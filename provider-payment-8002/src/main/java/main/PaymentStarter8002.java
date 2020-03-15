@@ -4,17 +4,16 @@ package main;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.ConfigurableApplicationContext;
-import main.service.PaymentService;
-import main.service.impl.PaymentServiceImpl;
 
 @MapperScan("main/mapper")
 @SpringBootApplication
-public class ServiceStarter {
+@EnableEurekaClient
+public class PaymentStarter8002 {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(ServiceStarter.class, args);
-        PaymentService userService = context.getBean(PaymentServiceImpl.class);
+        ConfigurableApplicationContext context = SpringApplication.run(PaymentStarter8002.class, args);
 
     }
 }
