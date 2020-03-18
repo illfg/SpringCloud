@@ -11,10 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
+
 @RestController
 public class OrderController {
 
-    @Autowired
+    @Resource
     private RestTemplate restTemplate;
 
 
@@ -41,6 +43,11 @@ public class OrderController {
         return restTemplate.postForObject(Payment_Url + "/payment/query",id,CommonResult.class);
     }
 
-
+    @RequestMapping("customer/test")
+    @ResponseBody
+    public void test(){
+        System.out.println("sadfasdfsadfsadfdfsadf");
+        restTemplate.postForObject(Payment_Url + "/payment/test",null,CommonResult.class);
+    }
 
 }

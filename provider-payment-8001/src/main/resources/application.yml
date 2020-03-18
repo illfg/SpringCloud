@@ -18,6 +18,7 @@ mybatis:
   mapper-locations: classpath:main.mapper/*.xml
   type-aliases-package: main.main.entity
 
+
 Eureka:
   client:
     register-with-eureka: true #向注册中心注册自己
@@ -25,4 +26,8 @@ Eureka:
     service-url:
       #注册中心的地址
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: payment8001
+    prefer-ip-address: true
+
 

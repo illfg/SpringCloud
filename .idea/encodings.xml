@@ -3,6 +3,8 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/Customer-Order-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Customer-Order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Customer-Order-81/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Customer-Order-82/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-7001/src/main/java" charset="UTF-8" />
@@ -13,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/provider-payment-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-payment-8002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-payment-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

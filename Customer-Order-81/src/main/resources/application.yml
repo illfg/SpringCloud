@@ -1,0 +1,9 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: Customer-81
+  cloud:
+    zookeeper:
+      connect-string: 0.0.0.0:2181

@@ -11,6 +11,9 @@ Eureka:
     service-url:
       #注册中心的地址
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: Customer-Order
 spring:
   application:
     name: Customer-Order-80

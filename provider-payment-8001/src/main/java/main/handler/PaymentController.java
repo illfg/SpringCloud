@@ -10,7 +10,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
 
 @RestController
 public class PaymentController {
@@ -18,6 +21,10 @@ public class PaymentController {
     @Qualifier("PaymentService")
     @Autowired
     PaymentService userService;
+
+    @Resource
+    DiscoveryClient discoveryClient;
+
 
     private final Logger log =  LoggerFactory.getLogger(PaymentController.class);
 
@@ -48,6 +55,12 @@ public class PaymentController {
         }else {
             return new CommonResult<Payment>(500,"查询失败",null);
         }
+    }
+
+    @RequestMapping("test")
+    @ResponseBody
+    public void test(){
+        System.out.println("---------------------------------------------");
     }
 
 }

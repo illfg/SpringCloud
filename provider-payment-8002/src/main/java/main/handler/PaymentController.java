@@ -49,4 +49,11 @@ public class PaymentController {
         }
     }
 
+    @RequestMapping("test")
+    @ResponseBody
+    public void test(){
+        System.out.println("---------------------------------------------");
+    }
+
+
 }
