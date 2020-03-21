@@ -16,8 +16,8 @@
         <option value="$PROJECT_DIR$/Hystrix_Dashbroad/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway-9527/pom.xml" />
         <option value="$PROJECT_DIR$/provider-payment-8006/pom.xml" />
-        <option value="$PROJECT_DIR$/Config-Server=2333/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Client=-2334/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Server-2333/pom.xml" />
       </list>
     </option>
   </component>

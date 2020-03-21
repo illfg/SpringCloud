@@ -1,4 +1,4 @@
-package org.yuanqi.configserver;
+package org.yuanqi.configserver2333;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableConfigServer
-public class ConfigServerApplication {
+public class ConfigServer2333Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerApplication.class, args);
+        SpringApplication.run(ConfigServer2333Application.class, args);
     }
 
 }

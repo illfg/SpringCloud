@@ -22,7 +22,7 @@
         <module name="Customer-Order-81" />
         <module name="Gateway-9527" />
         <module name="Config-Client-2334" />
-        <module name="config-server" />
+        <module name="Config-Server-2333" />
         <module name="eureka-server-7002" />
         <module name="eureka-server-7001" />
         <module name="Customer-Order-80" />
@@ -30,6 +30,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Config-Client-2334" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="Config-Server=2333" target="1.8" />
       <module name="provider-payment-8003" target="1.8" />
       <module name="provider-payment-8004 (2)" target="1.8" />
@@ -39,6 +40,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Config-Client-2334" options="-parameters" />
       <module name="Config-Client=-2334" options="-parameters" />
+      <module name="Config-Server-2333" options="-parameters" />
       <module name="Config-Server=2333" options="-parameters" />
       <module name="Customer-Hystrix-84" options="-parameters" />
       <module name="Customer-Order-81" options="-parameters" />
