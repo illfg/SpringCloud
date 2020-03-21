@@ -1,0 +1,35 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: customer-84
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+
+ribbon:
+#  OkToRetryOnAllOperations: false #对所有操作请求都进行重试,默认false
+  ReadTimeout: 5000   #负载均衡超时时间，默认值5000
+  ConnectTimeout: 5000 #ribbon请求连接的超时时间，默认值2000
+#  MaxAutoRetries: 0     #对当前实例的重试次数，默认0
+#  MaxAutoRetriesNextServer: 0 #对切换实例的重试次数，默认1
+
+#hystrix:
+#  command:
+#    default:  #default全局有效，service id指定应用有效
+#      execution:
+#        timeout:
+#          #是否开启超时熔断
+#          enabled: true
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 4000 #断路器超时时间，默认1000ms
+#
+#feign:
+#  hystrix:
+#    enabled: true

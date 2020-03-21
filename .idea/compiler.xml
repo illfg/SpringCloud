@@ -7,25 +7,52 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-commons" />
+        <module name="provider-payment-8006" />
+        <module name="provider-payment-8004" />
+        <module name="Customer-Hystrix-84" />
+        <module name="provider-payment-8001" />
+        <module name="provider-payment-8002" />
+        <module name="provider-payment-8004 (1)" />
+        <module name="Config-Client=-2334" />
+        <module name="customer-feign-83" />
+        <module name="Hystrix_Dashbroad" />
+        <module name="provider-hystrix-payment-8005" />
         <module name="Customer-Order-82" />
         <module name="Customer-Order-81" />
-        <module name="Customer-Order-80" />
-        <module name="cloud-commons" />
-        <module name="eureka-server-7001" />
-        <module name="provider-payment-8004" />
-        <module name="provider-payment-8003" />
-        <module name="provider-payment-8002" />
-        <module name="provider-payment-8001" />
+        <module name="Gateway-9527" />
+        <module name="Config-Client-2334" />
+        <module name="config-server" />
         <module name="eureka-server-7002" />
+        <module name="eureka-server-7001" />
+        <module name="Customer-Order-80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config-Client-2334" target="1.8" />
+      <module name="Config-Server=2333" target="1.8" />
+      <module name="provider-payment-8003" target="1.8" />
+      <module name="provider-payment-8004 (2)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Client-2334" options="-parameters" />
+      <module name="Config-Client=-2334" options="-parameters" />
+      <module name="Config-Server=2333" options="-parameters" />
+      <module name="Customer-Hystrix-84" options="-parameters" />
       <module name="Customer-Order-81" options="-parameters" />
       <module name="Customer-Order-82" options="-parameters" />
+      <module name="Gateway-9527" options="-parameters" />
+      <module name="Hystrix_Dashbroad" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="customer-feign-83" options="-parameters" />
+      <module name="provider-hystrix-payment-8005" options="-parameters" />
       <module name="provider-payment-8003" options="-parameters" />
       <module name="provider-payment-8004" options="-parameters" />
+      <module name="provider-payment-8004 (1)" options="-parameters" />
+      <module name="provider-payment-8004 (2)" options="-parameters" />
+      <module name="provider-payment-8006" options="-parameters" />
     </option>
   </component>
 </project>

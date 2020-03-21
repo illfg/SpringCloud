@@ -1,0 +1,26 @@
+server:
+  port: 9527
+
+
+spring:
+  cloud:
+    consul:
+      host: http://localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: payment-8004
+          uri: lb://payment-8004
+          predicates:
+            - Path=/test
+
+
+
+  application:
+    name: Gateway-9527

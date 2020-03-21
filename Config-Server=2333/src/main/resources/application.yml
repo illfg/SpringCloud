@@ -1,0 +1,27 @@
+server:
+  port: 2333
+
+
+spring:
+  application:
+    name: config-center
+
+
+  cloud:
+    config:
+      server:
+        git:
+          username: 1667248505@qq.com
+          password: yuanqi3366
+          uri: https://github.com/illfg/Config-Center.git #Github\u7684\u4ED3\u5E93
+          #\u641C\u7D22\u76EE\u5F55
+          search-paths:
+            - Config-Center
+      label: master
+
+
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}

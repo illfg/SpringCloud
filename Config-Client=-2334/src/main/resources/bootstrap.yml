@@ -1,0 +1,27 @@
+server:
+  port: 2334
+
+spring:
+  application:
+    name: Config-Client
+
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:2333
+
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+
+
+  #暴露监控端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

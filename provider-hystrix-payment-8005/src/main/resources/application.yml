@@ -1,0 +1,21 @@
+
+
+spring:
+  application:
+    name: payment-8005
+
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+server:
+  port: 8005
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

@@ -6,7 +6,7 @@ spring:
     name: payment-8003
   cloud:
     zookeeper:
-      connect-string: 0.0.0.0:2181
+      connect-string: 0.0.0.0：
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

@@ -26,19 +26,19 @@ public class PaymentController {
     DiscoveryClient discoveryClient;
 
 
-    private final Logger log = LoggerFactory.getLogger(PaymentController.class);
+    private final Logger log =  LoggerFactory.getLogger(PaymentController.class);
 
     @Value("${server.port}")
     private String port;
 
     @PostMapping("payment/create")
     @ResponseBody
-    public CommonResult<Payment> create(@RequestBody Payment payment) {
-        log.warn("payment Creating ...." + payment + port);
+    public CommonResult<Payment> create(@RequestBody Payment payment){
+        log.warn("payment Creating ...." + payment+port);
         try {
             userService.create(payment);
-            return new CommonResult<Payment>(200, "插入成功！", payment);
-        } catch (Exception e) {
+            return new CommonResult<Payment>(200,"插入成功！",payment);
+        }catch (Exception e) {
             log.error(e.toString());
             return new CommonResult<Payment>(500, "插入失败", null);
         }
@@ -47,21 +47,20 @@ public class PaymentController {
 
     @RequestMapping("payment/query")
     @ResponseBody
-    public CommonResult<Payment> query(@RequestBody Long id) {
+    public CommonResult<Payment> query(@RequestBody Long id){
         Payment result = userService.getPaymentById(id);
-        log.info("payment Query ...." + result + port);
-        if (result != null) {
-            return new CommonResult<Payment>(200, "查询成功！", result);
-        } else {
-            return new CommonResult<Payment>(500, "查询失败", null);
+        log.info("payment Query ...." + result+port);
+        if (result != null){
+            return new CommonResult<Payment>(200,"查询成功！",result);
+        }else {
+            return new CommonResult<Payment>(500,"查询失败",null);
         }
     }
 
     @RequestMapping("test")
     @ResponseBody
-    public String test() {
+    public void test(){
         System.out.println("---------------------------------------------");
-        return "success";
     }
 
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/provider-payment-8003/provider-payment-8003.iml" filepath="$PROJECT_DIR$/provider-payment-8003/provider-payment-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Config-Server=2333/Config-Client-2334.iml" filepath="$PROJECT_DIR$/Config-Server=2333/Config-Client-2334.iml" />
     </modules>
   </component>
 </project>
