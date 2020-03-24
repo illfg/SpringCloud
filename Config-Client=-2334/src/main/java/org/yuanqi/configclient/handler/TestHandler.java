@@ -15,6 +15,7 @@ public class TestHandler {
     @RequestMapping("getConfig")
     @ResponseBody
     public String test(){
+        System.out.println("here is config handler");
         return config;
     }
 }

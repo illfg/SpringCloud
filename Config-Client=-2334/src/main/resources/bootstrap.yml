@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Config-Client
+    name: Config-Client-2334
 
   cloud:
     config:
@@ -18,7 +18,11 @@ spring:
       discovery:
         service-name: ${spring.application.name}
 
-
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   #暴露监控端口
 management:
   endpoints:

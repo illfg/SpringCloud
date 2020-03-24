@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/provider-payment-8006/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Client=-2334/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Server-2333/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Client-2335/pom.xml" />
+        <option value="$PROJECT_DIR$/Stream-Provider-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/Stream-Customer-8990/pom.xml" />
+        <option value="$PROJECT_DIR$/Stream-Customer-8991/pom.xml" />
       </list>
     </option>
   </component>

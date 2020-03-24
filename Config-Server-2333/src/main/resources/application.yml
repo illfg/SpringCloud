@@ -20,9 +20,20 @@ spring:
             - Config-Center
       label: master
 
-
     consul:
       host: localhost
       port: 8500
       discovery:
         service-name: ${spring.application.name}
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh, bus-getConfig

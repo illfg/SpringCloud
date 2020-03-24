@@ -9,23 +9,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-commons" />
         <module name="provider-payment-8006" />
+        <module name="Stream-Customer-8991" />
         <module name="provider-payment-8004" />
         <module name="Customer-Hystrix-84" />
         <module name="provider-payment-8001" />
         <module name="provider-payment-8002" />
         <module name="provider-payment-8004 (1)" />
+        <module name="Gateway-9527" />
+        <module name="Stream-Provider-8801" />
         <module name="Config-Client=-2334" />
         <module name="customer-feign-83" />
         <module name="Hystrix_Dashbroad" />
         <module name="provider-hystrix-payment-8005" />
         <module name="Customer-Order-82" />
-        <module name="Customer-Order-81" />
-        <module name="Gateway-9527" />
-        <module name="Config-Client-2334" />
+        <module name="Config-Client-2335" />
+        <module name="Customer-Order-80" />
+        <module name="Stream-Customer-8990" />
         <module name="Config-Server-2333" />
         <module name="eureka-server-7002" />
         <module name="eureka-server-7001" />
-        <module name="Customer-Order-80" />
+        <module name="Customer-Order-81" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +42,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Config-Client-2334" options="-parameters" />
+      <module name="Config-Client-2335" options="-parameters" />
       <module name="Config-Client=-2334" options="-parameters" />
       <module name="Config-Server-2333" options="-parameters" />
       <module name="Config-Server=2333" options="-parameters" />
@@ -47,6 +51,9 @@
       <module name="Customer-Order-82" options="-parameters" />
       <module name="Gateway-9527" options="-parameters" />
       <module name="Hystrix_Dashbroad" options="-parameters" />
+      <module name="Stream-Customer-8990" options="-parameters" />
+      <module name="Stream-Customer-8991" options="-parameters" />
+      <module name="Stream-Provider-8801" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="customer-feign-83" options="-parameters" />
       <module name="provider-hystrix-payment-8005" options="-parameters" />
