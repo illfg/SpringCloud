@@ -1,0 +1,14 @@
+server:
+    port: 8989
+
+spring:
+    application:
+        name: sentinel-payment
+    cloud:
+        nacos:
+            discovery:
+                server-addr: localhost:8500
+        sentinel:
+            transport:
+                dashboard: localhost:8080
+                port: 8719

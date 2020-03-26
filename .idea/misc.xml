@@ -10,7 +10,6 @@
         <option value="$PROJECT_DIR$/provider-payment-8004/pom.xml" />
         <option value="$PROJECT_DIR$/Customer-Order-82/pom.xml" />
         <option value="$PROJECT_DIR$/customer-feign-83/pom.xml" />
-        <option value="$PROJECT_DIR$/provider-payment-8003/pom.xml" />
         <option value="$PROJECT_DIR$/provider-hystrix-payment-8005/pom.xml" />
         <option value="$PROJECT_DIR$/Customer-Hystrix-84/pom.xml" />
         <option value="$PROJECT_DIR$/Hystrix_Dashbroad/pom.xml" />
@@ -22,6 +21,12 @@
         <option value="$PROJECT_DIR$/Stream-Provider-8801/pom.xml" />
         <option value="$PROJECT_DIR$/Stream-Customer-8990/pom.xml" />
         <option value="$PROJECT_DIR$/Stream-Customer-8991/pom.xml" />
+        <option value="$PROJECT_DIR$/Nacus-Payment-Provider-10101/pom.xml" />
+        <option value="$PROJECT_DIR$/Customer-Nacos-85/pom.xml" />
+        <option value="$PROJECT_DIR$/Nacos-Config-6666/pom.xml" />
+        <option value="$PROJECT_DIR$/Sentinel-Payment-8989/pom.xml" />
+        <option value="$PROJECT_DIR$/Customer-Sentinel-Feign-86/pom.xml" />
+        <option value="$PROJECT_DIR$/Seata-Order-12311/pom.xml" />
       </list>
     </option>
   </component>

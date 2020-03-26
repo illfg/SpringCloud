@@ -1,0 +1,6 @@
+custom:
+  mybatis:
+    type-aliases-package: org.yuanqi.seataorder12311.entity
+    mapper-location: classpath:org.yuanqi.seataorder12311.mapper/*.xml
+  database:
+    name: seata_order

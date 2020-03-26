@@ -1,0 +1,22 @@
+server:
+  port: 12311
+
+
+spring:
+
+  application:
+    name: order-12311
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8500
+      config:
+        file-extension: yml
+        server-addr: localhost:8500
+        prefix: custom-database
+
+

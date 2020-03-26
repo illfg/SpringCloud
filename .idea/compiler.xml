@@ -9,26 +9,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-commons" />
         <module name="provider-payment-8006" />
-        <module name="Stream-Customer-8991" />
+        <module name="Customer-Sentinel-Feign-86" />
         <module name="provider-payment-8004" />
         <module name="Customer-Hystrix-84" />
         <module name="provider-payment-8001" />
+        <module name="Config-Server-2333" />
+        <module name="Seata-Order-12311" />
         <module name="provider-payment-8002" />
-        <module name="provider-payment-8004 (1)" />
-        <module name="Gateway-9527" />
+        <module name="Sentinel-Payment-8989" />
         <module name="Stream-Provider-8801" />
+        <module name="eureka-server-7001" />
         <module name="Config-Client=-2334" />
         <module name="customer-feign-83" />
+        <module name="Nacus-Payment-Provider-10101" />
         <module name="Hystrix_Dashbroad" />
+        <module name="Stream-Customer-8990" />
+        <module name="Stream-Customer-8991" />
         <module name="provider-hystrix-payment-8005" />
         <module name="Customer-Order-82" />
+        <module name="Customer-Order-81" />
+        <module name="Gateway-9527" />
+        <module name="Customer-Nacos-85" />
+        <module name="Nacos-Config-6666" />
+        <module name="eureka-server-7002" />
         <module name="Config-Client-2335" />
         <module name="Customer-Order-80" />
-        <module name="Stream-Customer-8990" />
-        <module name="Config-Server-2333" />
-        <module name="eureka-server-7002" />
-        <module name="eureka-server-7001" />
-        <module name="Customer-Order-81" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +41,7 @@
       <module name="config-server" target="1.8" />
       <module name="Config-Server=2333" target="1.8" />
       <module name="provider-payment-8003" target="1.8" />
+      <module name="provider-payment-8004 (1)" target="1.8" />
       <module name="provider-payment-8004 (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -47,10 +53,16 @@
       <module name="Config-Server-2333" options="-parameters" />
       <module name="Config-Server=2333" options="-parameters" />
       <module name="Customer-Hystrix-84" options="-parameters" />
+      <module name="Customer-Nacos-85" options="-parameters" />
       <module name="Customer-Order-81" options="-parameters" />
       <module name="Customer-Order-82" options="-parameters" />
+      <module name="Customer-Sentinel-Feign-86" options="-parameters" />
       <module name="Gateway-9527" options="-parameters" />
       <module name="Hystrix_Dashbroad" options="-parameters" />
+      <module name="Nacos-Config-6666" options="-parameters" />
+      <module name="Nacus-Payment-Provider-10101" options="-parameters" />
+      <module name="Seata-Order-12311" options="-parameters" />
+      <module name="Sentinel-Payment-8989" options="-parameters" />
       <module name="Stream-Customer-8990" options="-parameters" />
       <module name="Stream-Customer-8991" options="-parameters" />
       <module name="Stream-Provider-8801" options="-parameters" />
