@@ -11,5 +11,5 @@ public class CustomerFeign83Application {
     public static void main(String[] args) {
         SpringApplication.run(CustomerFeign83Application.class, args);
     }
-
+    //UPDATE t_repository SET used = used + #{count},...WHERE ///
 }

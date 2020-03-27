@@ -1,15 +1,5 @@
-server:
-  port: 12311
-
 
 spring:
-
-  application:
-    name: order-12311
-
-  profiles:
-    active: dev
-
   cloud:
     nacos:
       discovery:

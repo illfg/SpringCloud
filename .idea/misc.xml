@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/Sentinel-Payment-8989/pom.xml" />
         <option value="$PROJECT_DIR$/Customer-Sentinel-Feign-86/pom.xml" />
         <option value="$PROJECT_DIR$/Seata-Order-12311/pom.xml" />
+        <option value="$PROJECT_DIR$/Seata-Account-12312/pom.xml" />
       </list>
     </option>
   </component>

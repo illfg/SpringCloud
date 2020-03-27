@@ -1,5 +1,6 @@
 package org.yuanqi.seataorder12311.mapper;
 
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -13,4 +14,7 @@ public interface OrderMapper {
 
     @Select("SELECT * FROM t_order WHERE id=#{id}")
     public Order SeleteOrder(int id);
+
+    @Insert("INSERT INTO t_order(user_id,produce_id,count,cash,state} VALUES (#{user_id},#{produce_id},#{count},#{cash},#{state}))")
+    public void InsertOrder(Order order);
 }

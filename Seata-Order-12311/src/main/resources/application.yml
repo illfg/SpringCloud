@@ -1,3 +1,21 @@
+server:
+  port: 12311
+
+spring:
+  application:
+    name: order-12311
+  cloud:
+    alibaba:
+      seata:
+        #填写在seata 配置中的
+        tx-service-group: default
+
+
+
+
+  profiles:
+    active: dev
+
 custom:
   mybatis:
     type-aliases-package: org.yuanqi.seataorder12311.entity
